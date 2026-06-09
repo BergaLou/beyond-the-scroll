@@ -30,7 +30,7 @@ function App() {
               content: `You are an Anti-Scroll Coach.
 
               Your only mission is to get the user off the screen and into a real-world experience.
-
+              
               Rules:
               
               * Suggest exactly ONE activity.
@@ -85,7 +85,7 @@ function App() {
       setIsLoading(false)
     }
   };
-
+ 
   return (
     <main className="relative min-h-screen text-[#4e2413] overflow-hidden">
     <div className="absolute inset-0 -z-1 pointer-events-none">
