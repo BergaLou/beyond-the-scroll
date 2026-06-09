@@ -33,3 +33,5 @@ This project was built as a creative exploration of how AI can act as a collabor
 - Successfully deploy the application to Cloudflare.
 
 ## Link
+
+https://beyond-the-scroll.bergalou.workers.dev/

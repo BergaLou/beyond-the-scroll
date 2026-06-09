@@ -11,7 +11,7 @@ interface ActivityFormProps {
 
 export const ActivityForm = ({ budget, setBudget, days, setDays, onGenerate, isLoading }: ActivityFormProps) => {
     return (
-        <div className="flex flex-row gap-4 mb-8 p-10">
+        <div className="flex flex-col gap-4 mb-8 p-10">
             <select value={budget} onChange={(e) => setBudget(e.target.value)} className="p-2 rounded border">
                 <option value="free">Free</option>
                 <option value="low">Budget</option>
